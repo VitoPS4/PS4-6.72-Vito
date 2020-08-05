@@ -1,0 +1,105 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('./bttf.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-size: 2400px;
+    background-color: black;
+}
+
+#wrapper {
+    width: 100%;
+}
+#content {
+    width: 100%;
+}
+#ifr {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    display: none;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #4CAF50;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+    color:#ffffff;
+    font-family: "Verdana", Verdana, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 200%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-bottom: 10px solid #ffffff;
+	font-family: "Verdana", Verdana, serif;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about {
+    font-size: large;
+    color: #ffffff;
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
+ul.default {
+    list-style: disc outside;
+    margin-bottom: 8em;
+    overflow-y: scroll
+}
+ul.default li {
+    margin-left: 1em;
+    padding-left: 0;
+    overflow-y: scroll
+}
+.btn {
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-disabled {
+    width: 325px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 15px;
+}
+.btn-main {
+    width: 325px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 15px;
+}
+.btn-main:hover {
+    width: 325px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 20px;
+}
